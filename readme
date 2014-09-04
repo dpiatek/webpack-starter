@@ -1,0 +1,14 @@
+Webpack starter
+===============
+
+A starter template for a (simple) browser app/page using webpack.
+
+Install:
+npm i webpack webpack-dev-server -g
+npm i // install's webpack loaders
+
+// remove webpack-starter .git repo, package.json and this readme
+rm -rf .git package.json readme
+
+Usage:
+webpack-dev-server --progress --colors // localhost:8080
